@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div id="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Hello User, Welcome To The Webpage Of EduFord. Worlds No. 1 
+                University Of All Time. <br> More
+                Information Log In To Our Website.
+            </p>
+            <a class="btn" href="">Log In To Know More</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="text">
+            <h1>We Are The World's Largest University.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Posimus quibusdamLorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Posimus quibusdam.<br>quibusdamLorem ipsum
+             dolor sit amet consectetur mus quibusdamLorem ipsum dolor sit amet consectetur, 
+             adipisicing elit. Posimus quibusdam.<br>quibusdamLorem ipsum
+              dolor sit amet consectetu</p>
+              <a class="btn" href="">Enrole Now</a>
+        </div>
+
+        <div class="about-img">
+
+        </div>
+
+    </main>
+
+    <footer>
+        
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Posimus quibusdamLorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Posimus quibusdam.<br>quibusdamLorem ipsum
+             dolor sit amet consectetur</p>
+        <din class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+        </din>
+        <p>Made With <i class="fa fa-heart-o"></i> By Anshul.</p>
+    </footer>
+
+
+
+    <!----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+    <script>
+        var navLink = document.getElementById("nav-links");
+        function showMenu(){
+            navLink.style.right = "0px";
+            navLink.style.transition = "1s";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+            navLink.style.transition = "1s";
+        }
+    </script>
+<!----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+
+</body>
+</html>

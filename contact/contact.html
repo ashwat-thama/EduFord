@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="contact-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Courses</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about/about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div id="text-box">
+            <h1>Our Certificate & Online Program's For 2021.</h1>
+            <a class="btn" href="">Log In To Know More</a>
+        </div>
+    </header>
+
+    <seaction class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3116.9216008859166!2d73.26130219168589!3d22.32928164949138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf5aeaadccc9%3A0xbb2c0ead4fa344b!2sPioneer%20Medical%20%26%20Paramedical%20Campus%20Hospital!5e0!3m2!1sen!2sin!4v1617557168072!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </seaction>
+
+    <footer>
+        
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Posimus quibusdamLorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Posimus quibusdam.<br>quibusdamLorem ipsum
+             dolor sit amet consectetur</p>
+        <din class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+        </din>
+        <p>Made With <i class="fa fa-heart-o"></i> By Anshul.</p>
+    </footer>
+
+
+
+    <!----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+    <script>
+        var navLink = document.getElementById("nav-links");
+        function showMenu(){
+            navLink.style.right = "0px";
+            navLink.style.transition = "1s";
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px";
+            navLink.style.transition = "1s";
+        }
+    </script>
+<!----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+</body>
+</html>
